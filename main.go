@@ -23,7 +23,7 @@ type Mahasiswa struct {
 }
 
 func main() {
-	db, err = sql.Open("mysql", "root:0000@tcp(127.0.0.1:3306)/go-cruds")
+	db, err = sql.Open("mysql", "root:9999@tcp(127.0.0.1:3306)/go-cruds")
 	if err != nil {
 		panic(err.Error())
 	}
